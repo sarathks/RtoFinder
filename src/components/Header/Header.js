@@ -10,7 +10,7 @@ class Header extends PureComponent {
   render() {
     return (
         <div className = {classes.header}>
-          <h1> Vehicle RTO Location </h1>
+          <h1> Find Rto </h1>
         </div>
     );
   }

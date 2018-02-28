@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+.sample {
+	font-size: 12px;
+	text-align: center;
+}
+.wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50%;
+    width: 100%;
+}
+
+p{
+	font-family: 'Concert One', cursive;
+
+}
