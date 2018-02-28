@@ -10,7 +10,6 @@ class SubmitButton extends PureComponent {
   render() {
     return (
         <div className = {classes.submit}>
-          < div />
         </div>
     );
   }
