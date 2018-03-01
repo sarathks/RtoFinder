@@ -1,19 +1,17 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 
 import classes from './SearchInput.css';
 
-class SearchInput extends PureComponent {
-  handleChange = (event) => {
-    this.props.textChange(event);
-  }
 
-  render() {
-    return (
+const SearchInput = props => {
+  return (
         <div className = {classes.search}>
-          < input placeholder="DL 4C AG 3316"/>
+           < input placeholder="DL 4C AG 3316"
+             onChange={props.changeInput}
+             value={props.value}/>
+
         </div>
     );
-  }
 }
 
 export default SearchInput;
